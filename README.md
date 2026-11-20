@@ -4,11 +4,11 @@ In these sessions you build an AI customer-support agent for a business, **witho
 
 The example business in the guides is **DemoKart**, a made-up online shop. You follow the same steps for the business in your own brief.
 
-## You are on: `session-3`
+## You are on: `session-4`
 
-This branch holds the Session 3 guide, and the DemoKart agent as it is at the end of that session (it hands over to a person, saves tickets to tickets.csv, and follows safety rules). The code uses the help-docs track; every step in the guide works with either track.
+This branch holds the Session 4 guide, and the finished DemoKart agent with its customer chat page (app.py, behind a passcode), ready to put on GitHub and Streamlit Community Cloud.
 
-**Open the guide:** [session3.md](session3.md)
+**Open the guide:** [session4.md](session4.md)
 
 To start a session from this point, download this branch's ZIP from the table below.
 
