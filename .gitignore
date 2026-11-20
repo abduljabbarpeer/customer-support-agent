@@ -3,7 +3,7 @@
 .streamlit/secrets.toml
 
 # Python's virtual environment and caches
-.venv/
+.venv
 venv/
 __pycache__/
 *.pyc
