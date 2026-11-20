@@ -10,6 +10,9 @@ import os
 from dotenv import load_dotenv
 from google.adk.agents import Agent
 
+# The tool that reads DemoKart's FAQ Google Sheet.
+from .faq_tool import get_faq_answers
+
 # Read the settings in the .env file (your Gemini key and the model name).
 # The key is never written in code.
 load_dotenv()
@@ -32,6 +35,7 @@ Rules:
 4. Keep replies short: 3 sentences at most.
 5. Always stay polite and calm, even if the customer is rude.
 6. Reply in the same language the customer writes in, for example Hindi or Hinglish, using simple words.
+7. For any general question about DemoKart (delivery, returns, payments, how things work), first call the get_faq_answers tool. Answer only from what the tool returns, in your own short words. If the FAQs have no answer, say you are not sure and suggest contacting DemoKart support. Never guess. If the tool gives an error, say you can't look that up right now. Questions about a specific order still start with asking for the order ID.
 """
 
 # root_agent is the agent that ADK runs.
@@ -40,4 +44,5 @@ root_agent = Agent(
     model=MODEL,
     description="Kavya, the customer-support assistant for DemoKart, an online shop in India.",
     instruction=INSTRUCTION,
+    tools=[get_faq_answers],
 )
