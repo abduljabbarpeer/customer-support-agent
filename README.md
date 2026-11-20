@@ -23,8 +23,6 @@ Each session lives on its own branch. A branch holds that session's guide and th
 | 3. Hand-off and guardrails | Tickets for a human, safety rules | [session3.md](https://github.com/abduljabbarpeer/customer-support-agent/blob/session-3/session3.md) | [session-3.zip](https://github.com/abduljabbarpeer/customer-support-agent/archive/refs/heads/session-3.zip) |
 | 4. Go live | A chat page, on GitHub and online | [session4.md](https://github.com/abduljabbarpeer/customer-support-agent/blob/session-4/session4.md) | [session-4.zip](https://github.com/abduljabbarpeer/customer-support-agent/archive/refs/heads/session-4.zip) |
 
-Links to later sessions start working when that session is published.
-
 **Session 2 has two tracks.** If your brief gives you a Google Sheet of FAQs, follow the Google Sheet guide. If your brief gives you help documents, follow the help-docs guide. Do one, not both.
 
 ## Fell behind?
