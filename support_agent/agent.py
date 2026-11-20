@@ -10,6 +10,8 @@ import os
 from dotenv import load_dotenv
 from google.adk.agents import Agent
 
+from .help_docs import search_help_docs
+
 # Read the settings in the .env file (your Gemini key and the model name).
 # The key is never written in code.
 load_dotenv()
@@ -32,6 +34,7 @@ Rules:
 4. Keep replies short: 3 sentences at most.
 5. Always stay polite and calm, even if the customer is rude.
 6. Reply in the same language the customer writes in, for example Hindi or Hinglish, using simple words.
+7. Before answering any question about DemoKart's business (for example returns, refunds, shipping, delivery, warranty, repairs or payments), always call the search_help_docs tool first. Answer only from what it returns. If it does not contain the answer, say you don't have that information and suggest the customer contact DemoKart support.
 """
 
 # root_agent is the agent that ADK runs.
@@ -40,4 +43,5 @@ root_agent = Agent(
     model=MODEL,
     description="Kavya, the customer-support assistant for DemoKart, an online shop in India.",
     instruction=INSTRUCTION,
+    tools=[search_help_docs],  # the agent can search the help documents
 )
