@@ -281,11 +281,11 @@ You can run the check again at any time:
 2. Paste the line for your system and press Enter:
    - Mac:
      ```
-     .venv/bin/adk web --reload_agents
+     .venv/bin/adk web
      ```
    - Windows *(Windows, not tested by us)*:
      ```
-     .venv\Scripts\adk web --reload_agents
+     .venv\Scripts\adk web
      ```
 3. Wait for a box that says **ADK Web Server started**. Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 4. The first time, a box called **Help Improve ADK!** asks to collect usage data. Click **No Thanks**.
@@ -296,7 +296,7 @@ You can run the check again at any time:
 
 **Check it:** the reply appears within a few seconds. Then stop the agent: click in the second terminal and press **Ctrl+C**. The terminal prompt comes back.
 
-From now on, this is how you start and stop the agent's chat page. Keep it running while you work: `--reload_agents` means it picks up Claude Code's changes by itself.
+From now on, this is how you start and stop the agent's chat page. It does **not** pick up changes by itself: whenever Claude Code changes the agent, stop the chat page (**Ctrl+C**), press the **Up arrow** key to bring back the last command, and press **Enter** to start it again.
 
 **If it went wrong:**
 

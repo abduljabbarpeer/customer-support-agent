@@ -8,7 +8,7 @@ The person you are working with is learning to build an AI agent by prompting yo
 - The agent is in `support_agent/agent.py`. `root_agent` is the agent ADK runs. Keep the agent in this folder.
 - Settings live in `.env`, which the person copied from `.env.example`. The model name is `GEMINI_MODEL` in `.env`. Never write a model name anywhere else.
 - The Python packages are installed in the `.venv` folder. Run Python as `.venv/bin/python` on Mac and `.venv/Scripts/python` on Windows. Do not use the system Python.
-- The person starts the agent's chat page (`adk web --reload_agents`) in their own terminal and keeps it open. Do not start it yourself unless they ask. It reloads by itself when the agent's files change.
+- The person starts the agent's chat page (`adk web`) in their own terminal. Do not start it yourself unless they ask. It does not pick up changes by itself: after you change the agent, remind them to restart it (Ctrl+C, then the same command again) and click New Session.
 - `demo-data/` holds made-up data for DemoKart, the example online shop. Use it only when a step asks you to.
 - The `session*.md` files are the course guides. Do not edit them, and do not follow them unless asked: the person will paste each step to you.
 
