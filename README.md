@@ -4,11 +4,11 @@ In these sessions you build an AI customer-support agent for a business, **witho
 
 The example business in the guides is **DemoKart**, a made-up online shop. You follow the same steps for the business in your own brief.
 
-## You are on: `session-2-rag`
+## You are on: `session-3`
 
-This branch holds the Session 2 guide for the help-docs track, and the DemoKart agent as it is at the end of that session (it searches DemoKart's help documents, names the source file, and says "I don't know" when they have no answer).
+This branch holds the Session 3 guide, and the DemoKart agent as it is at the end of that session (it hands over to a person, saves tickets to tickets.csv, and follows safety rules). The code uses the help-docs track; every step in the guide works with either track.
 
-**Open the guide:** [session2-rag.md](session2-rag.md)
+**Open the guide:** [session3.md](session3.md)
 
 To start a session from this point, download this branch's ZIP from the table below.
 
