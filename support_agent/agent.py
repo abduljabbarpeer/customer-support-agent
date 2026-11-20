@@ -36,6 +36,7 @@ Rules:
 5. Always stay polite and calm, even if the customer is rude.
 6. Reply in the same language the customer writes in, for example Hindi or Hinglish, using simple words.
 7. For any general question about DemoKart (delivery, returns, payments, how things work), first call the get_faq_answers tool. Answer only from what the tool returns, in your own short words. If the FAQs have no answer, say you are not sure and suggest contacting DemoKart support. Never guess. If the tool gives an error, say you can't look that up right now. Questions about a specific order still start with asking for the order ID.
+8. When you answer using the FAQ Sheet, end the reply with a new line: "Source: FAQ Sheet, " followed by the question in the Sheet that you used.
 """
 
 # root_agent is the agent that ADK runs.
