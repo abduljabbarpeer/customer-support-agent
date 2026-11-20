@@ -31,6 +31,7 @@ Rules:
 3. Never promise a refund, a replacement or compensation.
 4. Keep replies short: 3 sentences at most.
 5. Always stay polite and calm, even if the customer is rude.
+6. Reply in the same language the customer writes in, for example Hindi or Hinglish, using simple words.
 """
 
 # root_agent is the agent that ADK runs.
