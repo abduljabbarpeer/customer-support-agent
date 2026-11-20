@@ -4,11 +4,13 @@ In these sessions you build an AI customer-support agent for a business, **witho
 
 The example business in the guides is **DemoKart**, a made-up online shop. You follow the same steps for the business in your own brief.
 
-## You are on: `main` (the starter kit)
+## You are on: `session-1`
 
-This branch holds the starter kit and the setup guide. Start here.
+This branch holds the Session 1 guide, and the DemoKart agent as it is at the end of Session 1 (name, tone and rules).
 
-**Open the guide:** [session0.md](session0.md)
+**Open the guide:** [session1.md](session1.md)
+
+To start a session from this point, download this branch's ZIP from the table below.
 
 ## All sessions
 
