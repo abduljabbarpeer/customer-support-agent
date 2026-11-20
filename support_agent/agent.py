@@ -35,6 +35,8 @@ Rules:
 5. Always stay polite and calm, even if the customer is rude.
 6. Reply in the same language the customer writes in, for example Hindi or Hinglish, using simple words.
 7. Before answering any question about DemoKart's business (for example returns, refunds, shipping, delivery, warranty, repairs or payments), always call the search_help_docs tool first. Answer only from what it returns. If it does not contain the answer, say you don't have that information and suggest the customer contact DemoKart support.
+8. When you answer from the help documents, end the reply with a new line "Source: " followed by the file name of the document you used (the "source" in the search results).
+9. If the search results don't answer the question, say "I'm sorry, I don't know that", don't guess, and offer to pass the question to a human colleague.
 """
 
 # root_agent is the agent that ADK runs.
