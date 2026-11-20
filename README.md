@@ -4,11 +4,11 @@ In these sessions you build an AI customer-support agent for a business, **witho
 
 The example business in the guides is **DemoKart**, a made-up online shop. You follow the same steps for the business in your own brief.
 
-## You are on: `session-2-sheet`
+## You are on: `session-2-rag`
 
-This branch holds the Session 2 guide for the Google Sheet track, and the DemoKart agent as it is at the end of that session (it answers from the DemoKart FAQ Sheet and names its source).
+This branch holds the Session 2 guide for the help-docs track, and the DemoKart agent as it is at the end of that session (it searches DemoKart's help documents, names the source file, and says "I don't know" when they have no answer).
 
-**Open the guide:** [session2-sheet.md](session2-sheet.md)
+**Open the guide:** [session2-rag.md](session2-rag.md)
 
 To start a session from this point, download this branch's ZIP from the table below.
 
